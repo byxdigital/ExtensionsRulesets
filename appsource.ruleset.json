@@ -1,0 +1,52 @@
+{
+    "name": "ABC Group ruleset for Appsource app development",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/byxdigital/extensionsruleset/main/base.rulset.json"
+        }
+    ],
+    "rules": [
+        {
+            "id": "PTE0001",
+            "action": "None",
+            "justification": "Range 50k; PTE Cop for AppSource apps"
+        },
+        {
+            "id": "PTE0002",
+            "action": "None",
+            "justification": "Range 50k; PTE Cop for AppSource apps"
+        },
+        {
+            "id": "LC0011",
+            "action": "Warning",
+            "justification": "Every object needs to specify a value for the Access property"
+        },
+        {
+            "id": "LC0034",
+            "action": "Warning",
+            "justification": "The property Extensible should be explicitly set for public objects."
+        },
+        {
+            "id": "AS0092",
+            "action": "None",
+            "justification": "The app.json file must specify an Azure Application Insights resource. Is added by the pipeline"
+        },
+        {
+            "id": "LC0068",
+            "action": "Warning",
+            "justification": "Add permissions to all objects"
+        },
+        {
+            "id": "AA0247",
+            "action": "Warning",
+            "justification": "Warn on missing ruleset"
+        },
+        {
+            "id": "PTE0013",
+            "action": "None",
+            "justification": "Allow entitlements for appsource apps"
+        }
+    ]
+}
+
