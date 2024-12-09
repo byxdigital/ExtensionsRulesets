@@ -18,11 +18,6 @@
             "justification": "Range 50k; PTE Cop for AppSource apps"
         },
         {
-            "id": "LC0011",
-            "action": "Warning",
-            "justification": "Every object needs to specify a value for the Access property"
-        },
-        {
             "id": "LC0034",
             "action": "Warning",
             "justification": "The property Extensible should be explicitly set for public objects."
