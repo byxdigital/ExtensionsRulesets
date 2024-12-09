@@ -1,9 +1,9 @@
 {
-    "name": "ABC Group ruleset for Appsource app development",
+    "name": "Byx Digital ruleset for Appsource app development",
     "includedRuleSets": [
         {
             "action": "Default",
-            "path": "https://raw.githubusercontent.com/byxdigital/extensionsruleset/main/base.rulset.json"
+            "path": "https://raw.githubusercontent.com/byxdigital/extensionsruleset/master/base.rulset.json"
         }
     ],
     "rules": [
