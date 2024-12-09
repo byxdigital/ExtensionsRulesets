@@ -3,7 +3,7 @@
     "includedRuleSets": [
         {
             "action": "Default",
-            "path": "https://raw.githubusercontent.com/byxdigital/extensionsruleset/master/base.rulset.json"
+            "path": "https://raw.githubusercontent.com/byxdigital/extensionsrulesets/master/base.rulset.json"
         }
     ],
     "rules": [
