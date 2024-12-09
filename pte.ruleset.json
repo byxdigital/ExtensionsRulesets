@@ -1,0 +1,36 @@
+{
+    "name": "Byx Digital ruleset for PTE app development",
+    "includedRuleSets": [
+        {
+            "action": "Default",
+            "path": "https://raw.githubusercontent.com/ByxDigital/ExtensionsRulesets/main/base.rulset.json"
+        }
+    ],
+    "rules": [
+        {
+            "id": "AS0051",
+            "action": "None",
+            "justification": "Manifest not for AppSource"
+        },
+        {
+            "id": "AS0052",
+            "action": "None",
+            "justification": "No Url given"
+        },
+        {
+            "id": "AS0084",
+            "action": "None",
+            "justification": "AppSource Cop in Partner Range"
+        },
+        {
+            "id": "AS0092",
+            "action": "none",
+            "justification": "Most PTE apps don't need an Azure Application Insights connection string"
+        },
+        {
+            "id": "LC0034",
+            "action": "None",
+            "justification": "The property Extensible should be explicitly set for public objects."
+        }
+    ]
+}
